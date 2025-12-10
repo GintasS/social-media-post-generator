@@ -1,0 +1,20 @@
+Generate {0} social media posts for this product for every platform in this list: {5}
+
+Product: {1}
+Description: {2}
+Price: {3}
+Category: {4}
+
+Format each post as:
+Platform: Content
+
+Use emojis and make them engaging.
+Below, there are going to be rules for each platform to follow, regarding the post content.
+Please adhere to these rules strictly:
+[Start of the rules]
+
+{6}
+
+[End of the rules]
+Return response as JSON object, where the key is "posts" and the value is an array of objects.
+Each object should have "platform" and "content" properties.
